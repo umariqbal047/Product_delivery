@@ -1,0 +1,49 @@
+﻿@using Blazored.Toast.Configuration
+@using Microsoft.AspNetCore.Identity;
+@using ProduceDeliveryApp.Persistence.IdentityModels;
+@using ProduceDeliveryApp.Application.Abstract.Interfaces;
+@using ProduceDeliveryApp.DataRead.UsersInfo.Queries;
+@using MediatR;
+@inject ICurrentUser _currentUser;
+@inject SignInManager<ApplicationUser> _signInManager;
+@inherits LayoutComponentBase
+@inject IMediator _mediator;
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        @if (_currentUser.IsAuthenticated)
+        {
+            <a href="/">Logout @username</a>
+        }
+        else
+        {
+            <a href="registration">Register</a>
+        }
+
+        @*<a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>*@
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+
+@code{
+
+    private string username;
+    protected override async Task OnInitializedAsync()
+    {
+        var user = await _mediator.Send(new GetUserProfile(_currentUser.Id));
+        username = user.Email;
+    }
+}
+
+<BlazoredToasts Position="ToastPosition.BottomRight"
+                Timeout="5"
+                IconType="IconType.FontAwesome"
+                SuccessClass="success-toast-override"
+                ErrorIcon="fa fa-bug" />

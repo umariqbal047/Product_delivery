@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\Estrats\.nuget\packages\blazored.toast\3.1.2\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\Estrats\.nuget\packages\matblazor\2.9.0-develop-035\build\..\staticwebassets\" />
+</StaticWebAssets>

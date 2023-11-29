@@ -1,0 +1,9 @@
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.deps.json
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.dll
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.pdb
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.csprojAssemblyReference.cache
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.AssemblyInfoInputs.cache
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.AssemblyInfo.cs
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.dll
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProductDeliveryApp.Infrastructure\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Infrastructure.pdb
