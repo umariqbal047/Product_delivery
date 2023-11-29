@@ -1,0 +1,150 @@
+﻿@page "/registeration"
+@layout EmptyLayout
+@inherits RegisterClientBase
+@using MatBlazor
+@inject IToastService toastService
+@using Blazored.Toast.Configuration
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #f0f0f0;
+        font-family: helvetica;
+    }
+
+    .fa-user-circle {
+        font-size: 130px;
+    }
+
+    .invalid {
+        outline: none !important;
+    }
+
+    .form {
+        float: left;
+        height: 86%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    .button {
+        height: 50px;
+        width: 90%;
+        border-radius: 5px;
+        border: rgba(0,0,0,.3) 0px solid;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 30px;
+        background: #007bff !important;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 12pt;
+        transition: background .4s;
+        cursor: pointer;
+    }
+    .sign-up-field {
+        display: flex;
+        flex-flow: column;
+        /*margin-bottom: 1em;*/
+    }
+    .sign-up-link {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        color: #0d6efd;
+    }
+
+    @@media only screen and (max-width: 500px) {
+        .sing-up-comments {
+            display: none;
+        }
+    }
+    mat-textbox:focus {
+        border-color: skyblue;
+    }
+    .fa-id-card {
+     font-size:100px;
+    }
+
+    .mat-textbox {
+        border-color: skyblue !important;
+    }
+
+    .button:hover {
+        background: #80b438;
+    }
+
+   /* .sign-up-container {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    }
+*/
+    .sign-up-heading {
+        max-width: 81%;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 bg-white mt-5 p-5 d-lg-flex  d-md-flex sign-up-container">
+            <div class="d-sm-none w-50 sing-up-comments d-xs-none d-lg-flex d-md-flex"><h2 class="text-center my-auto sign-up-heading">Join millions worldwide who engage with their clients using Produce Delivery App.</h2></div>
+            <div class="">
+               @*<span class="text-center"> <i class="far fa-id-card"></i></span>*@
+                <h3 class="text-primary mb-2 text-center">Client Registeration</h3>
+                <EditForm Model="@clientCmd" OnValidSubmit="@Signup">
+                    <DataAnnotationsValidator /> 
+                    <div class="d-lg-flex d-md-flex">
+                        <div class="sign-up-field p-2">
+                            <MatTextField @bind-Value="@clientCmd.FirstName" Label="First Name" Outlined="true" class="mat-textbox"></MatTextField>
+                            <ValidationMessage For="@(()=>clientCmd.FirstName)" />
+                        </div>
+                        <div class="sign-up-field p-2">
+                            <MatTextField @bind-Value="@clientCmd.LastName" Label="Last Name" Outlined="true"></MatTextField>
+                            <ValidationMessage For="@(()=>clientCmd.LastName)" />
+                        </div>
+                    </div>
+                    <div class="sign-up-field p-2">
+                        <MatTextField @bind-Value="@clientCmd.Email" Label="Email" Outlined="true"></MatTextField>
+                        <ValidationMessage For="@(()=>clientCmd.Email)" />
+                    </div>
+                    <div class="sign-up-field p-2">
+                        <MatTextField @bind-Value="@clientCmd.PhoneNumber" Label="Phone Number" Outlined="true"></MatTextField>
+                        <ValidationMessage For="@(()=>clientCmd.PhoneNumber)" />
+                    </div>
+                    <div class="sign-up-field p-2">
+                        <MatTextField @bind-Value="@clientCmd.Password" Label="Password"  Type="password" Outlined="true"></MatTextField>
+                        <ValidationMessage For="@(()=>clientCmd.Password)" />
+                    </div>
+                    <div class="sign-up-field p-2">
+                        <MatTextField @bind-Value="@clientCmd.ConfirmPassword" Type="password" Label="Confirm Password" Outlined="true"></MatTextField>
+                        <ValidationMessage For="@(()=>clientCmd.ConfirmPassword)" />
+                    </div>
+                    <div class="mt-3 text-center">
+                        <button disabled="@loading" type="submit" name="signUp" class="btn btn-primary btn-block">
+                            @if (loading)
+                            {
+                                <span class="spinner-border spinner-border-sm mr-1"></span>
+                            }
+                            Register
+                        </button>
+                    </div>
+                    <div class="text-center text-black-50"> Already have an account? <a class="sign-up-link" href="/login">Login</a></div>
+                </EditForm>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+    </div>
+</div>
+
+<BlazoredToasts Position="ToastPosition.BottomRight"
+                Timeout="5"
+                IconType="IconType.FontAwesome"
+                SuccessClass="success-toast-override"
+                ErrorIcon="fa fa-bug" />

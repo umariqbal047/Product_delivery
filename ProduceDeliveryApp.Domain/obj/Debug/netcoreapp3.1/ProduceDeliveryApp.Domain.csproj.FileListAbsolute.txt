@@ -1,0 +1,8 @@
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.deps.json
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.dll
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\bin\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.pdb
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.AssemblyInfoInputs.cache
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.AssemblyInfo.cs
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.dll
+D:\PersonalProjects\produce-delivery\Produce-Delivery-App\ProduceDeliveryApp.Domain\obj\Debug\netcoreapp3.1\ProduceDeliveryApp.Domain.pdb

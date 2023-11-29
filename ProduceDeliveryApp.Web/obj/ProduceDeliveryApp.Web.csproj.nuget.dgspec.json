@@ -1,0 +1,506 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Web\\ProduceDeliveryApp.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj",
+        "projectName": "ProduceDeliveryApp.Application",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj",
+        "projectName": "ProduceDeliveryApp.Domain",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\ProduceDeliveryApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\ProduceDeliveryApp.Persistence.csproj",
+        "projectName": "ProduceDeliveryApp.Persistence",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\ProduceDeliveryApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj"
+              },
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\ProduceDeliveryApp.DataRead.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\ProduceDeliveryApp.DataRead.csproj",
+        "projectName": "ProduceDeliveryApp.DataRead",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\ProduceDeliveryApp.DataRead.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj"
+              },
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Domain\\ProduceDeliveryApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Web\\ProduceDeliveryApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Web\\ProduceDeliveryApp.Web.csproj",
+        "projectName": "ProduceDeliveryApp.Web",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Web\\ProduceDeliveryApp.Web.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Application\\ProduceDeliveryApp.Application.csproj"
+              },
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\ProduceDeliveryApp.Persistence.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Persistence\\ProduceDeliveryApp.Persistence.csproj"
+              },
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\ProduceDeliveryApp.DataRead.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProduceDeliveryApp.Read\\ProduceDeliveryApp.DataRead.csproj"
+              },
+              "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\ProduceDeliveryApp.Infrastructure.csproj": {
+                "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\ProduceDeliveryApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.9.0-develop-035, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\ProduceDeliveryApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\ProduceDeliveryApp.Infrastructure.csproj",
+        "projectName": "ProduceDeliveryApp.Infrastructure",
+        "projectPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\ProduceDeliveryApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Estrats\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalProjects\\produce-delivery\\Produce-Delivery-App\\ProductDeliveryApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Estrats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
